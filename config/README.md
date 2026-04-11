@@ -1,4 +1,5 @@
-# Config — THUNAR-XFCE
+# Config
+>THUNAR-XFCE
 - Ce dossier contient les fichiers de configuration du projet **THUNAR-XFCE**.
 
 ## Contenu
