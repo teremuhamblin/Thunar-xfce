@@ -1,6 +1,6 @@
 🟩 📁 Arborescence Thunar-xfce
 
-`
+```text
 Thunar-xfce/
 ├── README.md
 ├── LICENSE
@@ -27,4 +27,4 @@ Thunar-xfce/
 │   └── colors.sh
 └── logs/
     └── thunar-xfce.log
-`
+```
