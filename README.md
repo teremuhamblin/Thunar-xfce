@@ -15,7 +15,7 @@ sudo ./install.sh
 ```
 
 ## Structure
-Voir `actions/`, `plugins/`, `config/`, `tui/`.
+Voir `.github`, `actions/`, `plugins/`, `config/`, `tui/`, `logs`.
 
 ## Licence
 - Projet libre, domaine public.
