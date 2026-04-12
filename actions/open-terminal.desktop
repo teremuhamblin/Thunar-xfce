@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Action
+Name=Ouvrir un terminal ici
+Icon=utilities-terminal
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+Exec=/opt/thunar-xfce/actions/scripts/open-terminal.sh "%f"
+MimeTypes=inode/directory;
