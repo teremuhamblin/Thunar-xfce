@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Action
+Name=Ouvrir en administrateur
+Icon=dialog-password
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+Exec=sh -c "$THUNAR_ACTIONS_DIR/scripts/open-as-root.sh %f"
+MimeTypes=inode/directory;inode/file;
