@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Action
+Name=Calculer SHA256
+Icon=accessories-calculator
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+Exec=/opt/thunar-xfce/actions/scripts/sha256sum.sh "%f"
+MimeTypes=inode/file;
