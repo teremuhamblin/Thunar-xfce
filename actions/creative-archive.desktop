@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Action
+Name=Créer une archive .tar.gz
+Icon=package-x-generic
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+Exec=/opt/thunar-xfce/actions/scripts/create-archive.sh "%f"
+MimeTypes=inode/directory;inode/file;
