@@ -1,0 +1,61 @@
+========================================
+THUNAR-XFCE — INFORMATION POUR LE PACKAGING DEBIAN
+========================================
+
+Ce fichier décrit les règles essentielles pour la création et
+l’installation du paquet Debian thunar-xfce_1.0.0_all.deb.
+
+1. STRUCTURE OBLIGATOIRE DU PAQUET
+----------------------------------
+Le dossier "debian/" doit contenir :
+
+- DEBIAN/control      → Métadonnées du paquet
+- DEBIAN/postinst     → Script exécuté après installation
+- DEBIAN/postrm       → Script exécuté après suppression
+- opt/thunar-xfce/    → CONTIENT LE PROJET ENTIER (OBLIGATOIRE)
+
+2. DOSSIER opt/thunar-xfce/
+---------------------------
+Le dossier "opt/thunar-xfce/" doit contenir l’intégralité du projet :
+
+- actions/
+- plugins/
+- tui/
+- config/
+- logs/
+- install.sh
+- uninstall.sh
+- SystemCheck.sh
+- PluginManager.sh
+- VERSION.md
+
+Ce dossier représente l’installation finale du logiciel sur le système.
+
+3. CONSTRUCTION DU PAQUET
+-------------------------
+Depuis la racine du projet :
+
+    dpkg-deb --build debian thunar-xfce_1.0.0_all.deb
+
+4. INSTALLATION DU PAQUET
+-------------------------
+    sudo dpkg -i thunar-xfce_1.0.0_all.deb
+
+5. DÉSINSTALLATION DU PAQUET
+----------------------------
+    sudo dpkg -r thunar-xfce
+
+6. NOTE IMPORTANTE
+------------------
+Le dossier "opt/" est utilisé pour installer des logiciels tiers
+sans interférer avec les répertoires système classiques (/usr/bin, /usr/share).
+
+Le projet doit impérativement être complet dans :
+
+    debian/opt/thunar-xfce/
+
+Sans cela, le paquet .deb sera incomplet ou non fonctionnel.
+
+========================================
+FIN DU DOCUMENT — THUNAR-XFCE v1.0.0
+========================================
