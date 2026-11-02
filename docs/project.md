@@ -29,7 +29,7 @@ Objectif final : un écosystème robuste, stable, extensible et prêt pour une r
 
 🧩 2. Architecture du projet
 
-`
+```text
 /opt/thunar-xfce/
 │── core/
 │   ├── loader.sh
@@ -58,7 +58,7 @@ Objectif final : un écosystème robuste, stable, extensible et prêt pour une r
 │── logs/
 │── config/
 │── backup/
-`
+```
 
 ---
 
