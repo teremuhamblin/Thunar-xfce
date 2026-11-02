@@ -1,21 +1,47 @@
-# THUNAR-XFCE
-> Projet Linux modulaire dédié à l’optimisation, l’automatisation et l’extension du gestionnaire de fichiers Thunar (XFCE).
+###### 🟩 README.md >> markdown 
+# 🟩 Thunar-xfce
+- — *Edition Tactique v1.0.0*
 
-## Objectifs
-- Ajouter des actions avancées (compression, checksums, métadonnées…)
-- Installer automatiquement les plugins utiles
-- Fournir un TUI tactique pour gérer Thunar
-- Centraliser la configuration et les logs
+### 🎯 Mission
+- 》》》 Optimiser Thunar avec des actions avancées,
+   - *une TUI militaire*.
+   - *des plugins modulaires*.
+   - *une installation automatisée*.
 
-## Installation
-
-```bash
-chmod +x install.sh
-sudo ./install.sh
+### 🛠️ Fonctionnalités
+```text
+- ✔ Actions Thunar professionnelles  
+- ✔ Plugins activables/désactivables  
+- ✔ TUI Ghost Recon  
+- ✔ SystemCheck Mode  
+- ✔ Plugin Manager  
+- ✔ Paquet Debian  
+- ✔ Installation automatique  
 ```
 
-## Structure
-Voir `.github/`, `actions/`, `plugins/`, `config/`, `tui/`, `logs`.
+### 📦 Structure
+```text
+- actions/ — Actions Thunar  
+- plugins/ — Modules additionnels  
+- tui/ — Interface militaire  
+- config/ — Configuration  
+- logs/ — Journalisation  
+- debian/ — Packaging .deb  
+```
 
-## Licence
-- Projet libre, domaine public.
+### ⚙ Installation
+```bash
+sudo bash install.sh
+```
+
+### 🛡 Sécurité
+- ✔ Permissions contrôlées  
+- ✔ Logs dédiés  
+- ✔ Vérification des dépendances  
+
+### 🚀 Roadmap
+###### v1.1 — Thème graphique militaire
+###### v1.2 — Actions avancées (OCR, metadata, hashing pro)
+###### v2.0 — Interface GUI complète  
+
+---
