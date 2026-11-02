@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "[+] Installation Thunar‑xfce terminée ✔"
+chmod 755 debian/DEBIAN/postinst
