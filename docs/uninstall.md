@@ -1,5 +1,3 @@
----
-
 🟩 1. UNINSTALL.md (simple et court)
 
 `markdown
