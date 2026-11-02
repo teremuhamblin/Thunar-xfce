@@ -21,7 +21,8 @@
 
 ### 📦 Structure
 ```text
-- actions/ — Actions Thunar  
+- actions/ — Actions Thunar
+- debian/ — Package DEBIAN
 - plugins/ — Modules additionnels  
 - tui/ — Interface militaire  
 - config/ — Configuration  
