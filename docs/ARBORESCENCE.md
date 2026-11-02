@@ -1,4 +1,6 @@
-🟩 📁 Arborescence Thunar-xfce
+### 🟩 📁 Arborescence
+- **Thunar-xfce**
+- *v1.0.0*
 
 ```text
 Thunar-xfce/
