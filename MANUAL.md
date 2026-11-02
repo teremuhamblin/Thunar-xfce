@@ -1,5 +1,3 @@
----
-
 🟩 3. MANUAL.md (court et simple)
 
 `markdown
