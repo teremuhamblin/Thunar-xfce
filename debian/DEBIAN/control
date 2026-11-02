@@ -1,0 +1,7 @@
+Package: thunar-xfce
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Teremu
+Description: Actions Thunar tactiques + TUI militaire + plugins modulaires.
