@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "[+] Thunar‑xfce désinstallé proprement ✔"
+chmod 755 debian/DEBIAN/postrm
